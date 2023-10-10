@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['.vercel.app']
 
-#ALLOWED_HOSTS = ['*']
+#ALLOWED_HOSTS = ['.vercel.app']
 
 
 
@@ -135,6 +135,7 @@ STATIC_URL = 'static/'
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000'
+    'https://lms-deploy.vercel.app/'
 ]
 
 # Default primary key field type
